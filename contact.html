@@ -42,7 +42,7 @@
         </div>       
             </div>
     <div class="form-area">  
-        <form role="form" action="https://formspree.io/ajinkya.khamkar93@gmail.com" method="POST">
+        <form id="contact-form" role="form">
         <br style="clear:both">
             <div class="items text-center">You can leave me a message here </div>
                     <hr>
@@ -59,8 +59,19 @@
                     <textarea class="form-control items" type="textarea" id="message" placeholder="Message" name="message" maxlength="140" rows="7"></textarea>
                         <span class="help-block"><p id="characterLeft" class="help-block items">You have reached the limit</p></span>                    
                     </div>
-        <div class="col-md-12 text-center">     
-        <button type="button" id="submit" name="submit" class="btn btn-primary ">Submit Form</button>
+        	<div class="col-md-12 text-center">     
+        	<button type="button" id="submit" name="submit" class="btn btn-primary ">Submit Form</button>
+	
+	<!-- Hidden message to show if contact is successful. -->
+		<div id="submit-success" class="collapse">
+  			Message received! I'll be in touch.
+		</div>
+
+	<!-- Hidden message to show if user encounters errors. -->
+		<div id="submit-errors" class="collapse">
+  		It looks like there was an error submitting the form.
+  		Please try again later.
+		</div>
             </div>    
         </form>
     </div>
@@ -82,5 +93,28 @@
         </div>
     </div>           
     </body>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" type="text/javascript"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
+    $("#contact-form").validate({
+  		submitHandler: function(form) {
+    		$.ajax({
+     		 url: "//formspree.io/ajinkya.khamkar93@gmail.com", 
+      		 method: "POST",
+      		data: {
+        		name: $(form).find("input[name='name']").val(),
+        		email: $(form).find("input[name='email']").val(),
+			mobile: $(form).find("input[name='mobile']").val(),
+        		message: $(form).find("textarea[name='message']").val()
+      		},
+      		dataType: "json"
+		success: function() {
+      			  $("#submit-success").fadeIn();
+       			  $("#contact-form").fadeOut();
+               },
+         		  error: function() {
+        		  $("#submit-errors").fadeIn();        
+      }
+    });
+  }
+});
 </html>
