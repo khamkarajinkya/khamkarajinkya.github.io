@@ -95,7 +95,8 @@
     </body>
     <script src="https://code.jquery.com/jquery-3.2.1.js" type="text/javascript"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
-    $("#contact-form").validate({
+    <script type="text/javascript">
+	$("#contact-form").validate({
   		submitHandler: function(form) {
     		$.ajax({
      		 url: "//formspree.io/ajinkya.khamkar93@gmail.com", 
@@ -117,4 +118,5 @@
     });
   }
 });
+</script>	    
 </html>
