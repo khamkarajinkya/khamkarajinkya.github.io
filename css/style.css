@@ -149,13 +149,13 @@ body {
 }
 
 .highlight{
-    font-weight: 500; 
+    font-weight: 400; 
 	font-size: 16px;   
     @font-face {
     font-family:CormorantGaramond-Light;
-    src: url("fonts/CormorantGaramond-Light.otf") format("opentype");
+    src: url("C:/Users/Ajinkya/Desktop/kaggle kernels/website/theme/assets/fonts/font/CormorantGaramond-Light.otf") format("opentype");
                 }
-    color: #A90533;    
+    color: #0077be;    
 }
 
 .about-me{
@@ -251,11 +251,14 @@ background-color: #ffffff;
     background-color: #ffffff;
 	padding: 10px 40px 60px;
 	margin: 10px 0px 60px;
-	border: 1px solid #A90533;
+	border: 1px solid #e6e6e6;
+    border-radius: 6px;
 	}
+
 
 .center_div {
   position: absolute;
+  padding-top: 40px;
   left: 0;
   right: 0;
   margin: auto;  
