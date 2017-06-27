@@ -59,6 +59,7 @@ body {
      .container.custom-container {
          padding: 0 30px;
         max-width: 7800px;
+	min-width: 100%;
         margin-top: 40px;
         max-height: 2000px; 
         min-height: 1080px;  
@@ -97,6 +98,7 @@ body {
      .container.custom-container {
          padding: 0 30px;
         max-width: 420px;
+	min-width: 100%;
         margin-top: 40px;
         max-height: 5000px; 
         min-height: 1080px;  
