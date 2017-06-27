@@ -61,7 +61,7 @@ body {
         max-width: 7800px;
         margin-top: 40px;
         max-height: 2000px; 
-        min-height: 980px;  
+        min-height: 1080px;  
     }
     
     .col-centered{
@@ -99,7 +99,7 @@ body {
         max-width: 420px;
         margin-top: 40px;
         max-height: 5000px; 
-        min-height: 980px;  
+        min-height: 1080px;  
     }
     
     .col-centered{
