@@ -217,17 +217,6 @@ body {
     
 }
 
-
-.nav-item{ 
-    font-weight: 300; 
-    font-size: 18px;   
-    @font-face {
-    font-family:CormorantGaramond-Light;
-    src: url("fonts/CormorantGaramond-Light.otf") format("opentype");
-                }
-    
-}
-
 .land-image {
     background-repeat: no-repeat;
     border-radius: 10%;
