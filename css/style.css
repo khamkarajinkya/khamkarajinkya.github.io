@@ -26,6 +26,78 @@ body {
     .row.about-row {
     margin-bottom:20px;
     }
+    
+    .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+    
+    .title { 
+    font-weight: 100; 
+    font-size: 30px;   
+    @font-face {
+    font-family:CormorantGaramond-Light;
+    src: url("fonts/CormorantGaramond-Light.otf") format("opentype");
+                }
+    color: #000000;
+    }
+
+}
+
+/*mobile friendly*/
+@media screen and (min-width:641px) and (max-width:1199px) {
+     .container.custom-container {
+         padding: 0 30px;
+        max-width: 7800px;
+        margin-top: 40px;
+        max-height: 2000px; 
+        min-height: 980px;  
+    }
+    
+    .col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+    .title { 
+    font-weight: 5; 
+    font-size: 22px;   
+    @font-face {
+    font-family:CormorantGaramond-Light;
+    src: url("fonts/CormorantGaramond-Light.otf") format("opentype");
+                }
+    color: #000000;
+    }
+
+    
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+     .container.custom-container {
+         padding: 0 30px;
+        max-width: 420px;
+        margin-top: 40px;
+        max-height: 5000px; 
+        min-height: 980px;  
+    }
+    
+    .col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+     .title { 
+    font-weight: 5; 
+    font-size: 22px;   
+    @font-face {
+    font-family:CormorantGaramond-Light;
+    src: url("fonts/CormorantGaramond-Light.otf") format("opentype");
+                }
+    color: #000000;
+    }
+    
 }
 
     
