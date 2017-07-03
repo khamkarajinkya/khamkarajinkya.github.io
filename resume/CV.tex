@@ -1,0 +1,249 @@
+
+\documentclass[a4paper]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Ajinkya Khamkar}
+\newcommand{\CVTitle}{Resume}
+\newcommand{\CVWebpage}{https://khamkarajinkya.github.io}
+\thispagestyle{empty}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklink}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+\href{https://www.google.com/maps/place/Park+Doral+Apartments/@39.1684389,-86.5009352,17z/data=!3m1!4b1!4m5!3m4!1s0x886c641e02d36af5:0xb2e52a6ee480eb5f!8m2!3d39.1684389!4d-86.4987465}
+{2677, East $7^{th}$ Street, Bloomington, Indiana, 47408}
+\par
+\href{mailto:adkhamka@iu.edu}
+{adkhamka@iu.edu}
+\,\SubBulletSymbol\,
++1\,(812)\,606-2086
+\,\SubBulletSymbol\,
+Personal website:
+\href{\CVWebpage}
+{\url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+{\textbf{Indiana University}},
+Bloomington, Indiana
+
+\Gap
+M.S. in Data Science
+\hfill
+\DatestampYMD{2016}{08}{10} --
+\DatestampYMD{2018}{05}{15}
+\begin{Detail}
+\SubBulletItem
+Cumulative GPA: 3.6 / 4.0
+\SubBulletItem
+Awards: Data science fellowship for 2016-2017, 2017-2018.
+\end{Detail}
+
+\BigGap
+\Entry
+{\textbf{University of Mumbai}},
+Mumbai, India
+
+\Gap
+B.S. in Computer Science
+\hfill
+\DatestampYMD{2011}{08}{10} --
+\DatestampYMD{2015}{05}{15}
+\begin{Detail}
+\SubBulletItem
+Cumulative GPA: 3.6 / 4.0
+\end{Detail}
+\Gap
+
+
+%%%%%%%%%%%%%%
+%% Projects %%
+%%%%%%%%%%%%%%
+
+\Section
+{Projects}
+{Projects}
+{PDF:Projects}
+\Gap
+\Entry
+\href{https://khamkarajinkya.github.io/work}
+{\textbf{Link to additional projects}}
+
+Amazon back order predictions
+\begin{Detail}
+\SubBulletItem
+Tackled class inseparability using non-linear data transformations, support vector machines \ and neural networks to achieve over 90\% accuracy and over 85\% precision.
+\SubBulletItem
+The neural network model was built using h2o framework in R. 
+\end{Detail}
+\Gap
+
+United States presidential elections-predicting voter choice
+\begin{Detail}
+\SubBulletItem
+Designed predictive model and interactive report to estimate probability of an individual voting for a candidate \ based on his demographic characteristics and policy stance.
+\SubBulletItem
+Gradient boosting ensemble learner was designed in R and the report was designed in tableau.
+\end{Detail}
+\Gap
+
+Forecasting unemployment rate using Long short term memory networks
+\begin{Detail}
+\SubBulletItem
+Designed recurrent neural network model in python to forecast unemployment rate. Model's performance was excellent with a RMSE error of less than 0.05.
+\end{Detail}
+\Gap
+
+Image classification and localization using deep convolutional neural networks 
+\begin{Detail}
+\SubBulletItem
+Designed deep learning network to classify the PASCAL VOC 2007 data set. Image localization was performed using bounding boxes and regional convolutional networks.
+\SubBulletItem
+Model was built using Keras library with tensorflow architecture in python.
+\end{Detail}
+\Gap
+
+Artificial intelligence agents for board games
+\begin{Detail}
+\SubBulletItem
+`Connect 4' agent based on increasing depth alpha-beta pruning search; agent searched at depth 7 and returned the best possible move in 3 seconds.
+\SubBulletItem
+Designed board game agent for partially observable environments using Davis-Putnam-Logemann-Loveland satisfiability algorithm.
+\SubBulletItem
+Designed board game agent for stochastic partially observable environments using Markov decision process. 
+\end{Detail}
+\Gap
+
+Social media mining
+\begin{Detail}
+\SubBulletItem
+Maximizing content sharing in connected networks by identifying influencers within the network.
+\SubBulletItem
+Individual influence was gauged using networks reaction towards their published content and its reach within the network.
+\SubBulletItem
+Proposed for the project to be used in market analysis, political polarization and targeted advertisements.
+\end{Detail}
+\Gap
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% Work Experience  %%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Work experience}
+{Work experience}
+{PDF:Work experience}
+
+{\textbf{University of Mumbai}}, Mumbai, India
+\Gap
+Research assistant
+\hfill
+\DatestampYMD{2015}{09}{1} --
+\DatestampYMD{2016}{07}{1}
+\begin{Detail}
+\Item
+Designed unsupervised document classification algorithm using weighted corpus, inverse document frequency and document scores.
+\end{Detail}
+
+{\textbf{Holding Willey cricket website}}, Mumbai, India
+\Gap
+Data analyst
+\hfill
+\DatestampYMD{2015}{06}{1} --
+\DatestampYMD{2015}{10}{1}
+\begin{Detail}
+\Item
+Designed and implemented player database schema. Extracted information using scraping techniques. Performed data cleaning and uploading.
+\Item
+Increased user base by improving social media participation. Optimizing content delivery at time of maximum user traffic.
+\end{Detail}
+
+\Section
+{Professional Communities}
+{Professional Communities}
+{PDF:Professional Communities}
+
+
+{\textbf{Association of Information Science and Technology}}, Indiana University
+\Gap
+\SubBulletItem
+President
+\hfill
+\DatestampYMD{2017}{06}{23} --
+\DatestampYMD{2018}{05}{15}
+\Gap
+{\textbf{Computer Society of India}}, University of Mumbai
+\Gap
+\SubBulletItem
+General Secretary
+\hfill
+\DatestampYMD{2012}{08}{01} --
+\DatestampYMD{2014}{08}{01}
+
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+{\textbf{Language:}} R, python, SAS, Stata
+\Gap
+{\textbf{Visualization:}} Tableau
+\Gap
+{\textbf{Database:}} SQL, SQLite
+\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+\end{document}
