@@ -301,8 +301,8 @@ background-color: #ffffff;
 
 .work-items{
 	
-    font-weight: 500; 
-	font-size: 16px;   
+    font-weight: 400; 
+	font-size: 12px;   
     @font-face {
     font-family:CormorantGaramond-Light;
     src: url("C:/Users/Ajinkya/Desktop/kaggle kernels/website/theme/assets/fonts/font/CormorantGaramond-Light.otf") format("opentype");
@@ -313,8 +313,8 @@ background-color: #ffffff;
 
 .work-language{
 	
-    font-weight: 300; 
-	font-size: 15px;   
+    font-weight: 200; 
+	font-size: 12px;   
     @font-face {
     font-family:CormorantGaramond-Light;
     src: url("C:/Users/Ajinkya/Desktop/kaggle kernels/website/theme/assets/fonts/font/CormorantGaramond-Light.otf") format("opentype");
