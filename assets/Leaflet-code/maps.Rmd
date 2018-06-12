@@ -1,0 +1,32 @@
+---
+title: "Maps"
+author: "Ajinkya Khamkar"
+date: "May 31, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE,warning=FALSE,error=FALSE,comment=NA}
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r code}
+
+library(leaflet)
+library(shiny)
+library(mapview)
+
+coords <- read.csv('coords.csv',header = T,sep = ',',na.strings = "")
+
+image_coords <- na.omit(coords)
+
+images <- c("https://drive.google.com/uc?id=1M4bnpJM967VC-nSiAqfr5Mtygj4Qvg3K",
+            "https://drive.google.com/uc?id=1UmdIBEOfnu46MishRPXo59jrxOS8MGKR",
+            "https://drive.google.com/uc?id=1B2xJYqJR390656q6sZ__FgCQxS3-REc-")
+
+leaflet(width = '100%') %>%
+  addTiles('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png') %>%
+  addCircles(data = coords,~longitude, ~latitude, weight = 3, radius=40, 
+           color="#ffa500", stroke = TRUE, fillOpacity = 0.8) %>%
+  addMarkers(data = image_coords,popup =popupImage(images,'remote'))
+
+```
