@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua');
+
+body {
+
+    background-color: #F1F3F4;
+    color: #44494B;
+    font-family: 'Inknut Antiqua', serif;
+    
+}
+
+
+.title-header {
+    
+	font-size: 3.5vmax;
+	font-variant: normal;
+	font-weight: 300;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-header {
+    
+	font-size: 1.1vmax;
+	font-variant: normal;
+	font-weight: 300;
+    
+}
+
+
+.image-width {
+    
+    width: 100%;
+    
+}
+
+.image-corner {
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #D3D3D3;
+}
+
+.work-gap{
+    
+	padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	margin: 10px 0px;
+	border: 1px solid #D3D3D3;
+}
+
+.work-items{
+	
+    font-weight: 300; 
+	font-size: 13px;   
+	text-align:justify;
+    transition: all .5s ease;
+}
+
+.work-language{
+	
+    font-weight: 100; 
+	font-size: 12px;   
+	text-align:justify;
+}
+
+.col-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.footer {
+  padding: 5px 0;
+}
+
+
+.footer-font{
+    
+    font-size: 1.1vmax;
+}
+
+.footer a {
+  color: #44494B;
+  font-size: 15px;
+  padding: 8px;
+  transition: all .5s ease;
+}
+.footer a:hover {
+  color:cornflowerblue;
+}
+
+.map-text {
+    
+    font-size: 12px;
+    
+}
+
+
