@@ -2,48 +2,44 @@
 
 body {
 
-    background-color: #dcdcdc;
-    color: #44494B;
-    font-family: 'Frank Ruhl Libre', serif;
+    background-color: #0d0d0d;
+    color: #FEFDFC;
+    font-family: 'Poppins', sans-serif;
 
-    
 }
 
 
 .title-header {
-    
+
 	font-size: 4.2vmax;
 	font-variant: normal;
 	font-weight: 300;
-    height:100px;
-    justify-content: center;
-    align-items: center;
-    
+    height:100;
+    justify-content: left;
+    align-items: justify;
+
 }
 
 .content-header {
-    
-	font-size: 1.15vmax;
+
+	font-size: 1.25vmax;
 	font-variant: normal;
-	font-weight: 300;
-    
+	font-weight: 250;
+
 }
 
 
 .image-width {
-    
-    width: 100%;
-    
+    height: auto;
+    width:100%
 }
 
 .image-corner {
-    border: 2px solid;
-    border-radius: 5px;
-    border-color: #D3D3D3;
+    border-color: #0d0d0d;
 }
 
 .work-gap{
-    
+
 	padding-left: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -52,17 +48,17 @@ body {
 }
 
 .work-items{
-	
-    font-weight: 300; 
-	font-size: 13px;   
+
+    font-weight: 300;
+	font-size: 13px;
 	text-align:justify;
     transition: all .5s ease;
 }
 
 .work-language{
-	
-    font-weight: 100; 
-	font-size: 12px;   
+
+    font-weight: 100;
+	font-size: 12px;
 	text-align:justify;
 }
 
@@ -79,13 +75,14 @@ body {
 
 
 .footer-font{
-    
+
     font-size: 1.1vmax;
+
 }
 
 .footer a {
-  color: #44494B;
-  font-size: 15px;
+  color: #FEFDFC;
+  font-size: 20px;
   padding: 8px;
   transition: all .5s ease;
 }
@@ -94,9 +91,7 @@ body {
 }
 
 .map-text {
-    
+
     font-size: 12px;
-    
+
 }
-
-
