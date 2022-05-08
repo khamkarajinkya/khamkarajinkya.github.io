@@ -3,7 +3,7 @@
 body {
 
     background-color: #000000;
-    color: ##7f7f7f;
+    color: #7f7f7f;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .title-header {
-
+  color: #7f7f7f;
 	font-size: 4.2vmax;
 	font-variant: normal;
 	font-weight: 300;
@@ -92,7 +92,7 @@ body {
 }
 
 .footer a {
-  color: #FEFDFC;
+  color: #7f7f7f;
   font-size: 20px;
   padding: 8px;
   transition: all .5s ease;
