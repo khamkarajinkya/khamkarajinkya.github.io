@@ -8,6 +8,14 @@ body {
 
 }
 
+.title-font-intro{
+
+  font-family: 'Pacifico', cursive;
+  color: #dbdbdb;
+  font size : 20px;
+
+}
+
 .realign-left {
 
   padding-left:50px;
