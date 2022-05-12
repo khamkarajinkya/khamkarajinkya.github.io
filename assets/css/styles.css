@@ -89,6 +89,12 @@ body {
     width: 100%; /* Set full-width to expand the whole page */
 }
 
+@media only screen and (max-width: 500px) {
+   .footer {
+      margin-top:100px !important;
+   }
+}
+
 .footer {
   padding: 5px 0;
 }
