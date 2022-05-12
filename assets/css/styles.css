@@ -48,6 +48,25 @@ body {
 
 }
 
+@media only screen and (max-width: 500px) {
+  .title-header {
+    color: #ffffff;
+  	font-size: 5.2vmax;
+  	font-variant: normal;
+  	font-weight: 400;
+      height:100;
+      justify-content: left;
+      align-items: justify;
+
+  }
+  .content-header {
+
+  	font-size: 1vmax;
+  	font-variant: normal;
+  	font-weight: 550;
+
+  }
+}
 
 .image-width {
     height: auto;
@@ -91,7 +110,7 @@ body {
 
 @media only screen and (max-width: 500px) {
    .footer {
-      margin-top:100px !important;
+      margin-top:30px !important;
    }
 }
 
