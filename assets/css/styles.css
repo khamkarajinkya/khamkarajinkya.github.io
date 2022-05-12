@@ -66,11 +66,8 @@ body {
   	font-weight: 300;
 
   }
-  .image-width {
-      height: auto;
-      width:100%;
-      srcset:'images/photo_small.jpg';
-  }
+  img {srcset:'images/photo_small.jpg';}
+
 }
 
 .image-width {
