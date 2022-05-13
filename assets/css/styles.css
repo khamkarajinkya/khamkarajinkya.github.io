@@ -137,8 +137,12 @@ body {
   color:cornflowerblue;
 }
 
-.map-text {
+.link a{
+  color: #ffffff;
+  text-decoration: underline; 
+  transition: all .5s ease;
+}
 
-    font-size: 12px;
-
+.link a:hover {
+  color:cornflowerblue;
 }
